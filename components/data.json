@@ -1,0 +1,28 @@
+{
+    "resources": [{
+            "title": "Find me on Twitter",
+            "link": "https://twitter.com/kendalmintcode",
+            "imageUrl": "https://app.orbeecom.com/storage/6/posts/1uF84QJ6elTUHn7zYSFMIZrLwCffw6feyLCjOoF8.jpg"
+        },
+        {
+            "title": "Welcome to Ark Labs",
+            "link": "https://ark-labs.co.uk",
+            "imageUrl": "mascote-fenix-ecom.png"
+        },
+        {
+            "title": "Super item number five",
+            "link": "https://twitter.com/kendalmintcode",
+            "imageUrl": "https://app.orbeecom.com/storage/6/posts/1uF84QJ6elTUHn7zYSFMIZrLwCffw6feyLCjOoF8.jpg"
+        },
+        {
+            "title": "Super item number six",
+            "link": "https://twitter.com/kendalmintcode",
+            "imageUrl": "https://app.orbeecom.com/storage/6/posts/1uF84QJ6elTUHn7zYSFMIZrLwCffw6feyLCjOoF8.jpg"
+        },
+        {
+            "title": "Super item number the last",
+            "link": "https://twitter.com/kendalmintcode",
+            "imageUrl": "https://app.orbeecom.com/storage/6/posts/1uF84QJ6elTUHn7zYSFMIZrLwCffw6feyLCjOoF8.jpg"
+        }
+    ]
+}

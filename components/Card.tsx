@@ -1,0 +1,19 @@
+export const Card = () => {
+  return (
+
+    <section className="w-full pt-20 pb-16 px-6 md:px-4 border-b border-zinc-900 ">
+      <div className="w-full max-w-[1220px] mx-auto"><div className="flex flex-col items-center mb-10">
+        <p className="text-[12px] md:text-base text-feedback-alert mb-4 flex items-center gap-2">
+          <svg width={21} height={20} viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fillRule="evenodd" clipRule="evenodd" d="M15.1133 4.79163C15.8183 4.79163 16.2917 5.41246 16.2917 5.99079C16.2917 7.16413 14.3275 8.12496 14.2917 8.12496C14.2558 8.12496 12.2917 7.16413 12.2917 5.99079C12.2917 5.41246 12.765 4.79163 13.47 4.79163C13.8733 4.79163 14.1383 4.97996 14.2917 5.14829C14.445 4.97996 14.71 4.79163 15.1133 4.79163V4.79163Z" stroke="#E0740F" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M14.3425 10.6625C13.6658 10.6625 13.025 10.5133 12.4492 10.2458L9.6825 10.8333L10.2617 8.06164C9.9925 7.48498 9.8425 6.84081 9.8425 6.16248" stroke="#E0740F" strokeLinecap="round" strokeLinejoin="round" /><path d="M14.3375 10.6575C16.82 10.6575 18.8333 8.64496 18.8333 6.16163C18.8333 3.67829 16.8208 1.66663 14.3375 1.66663C11.8542 1.66663 9.84166 3.67913 9.84166 6.16246" stroke="#E0740F" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M7.4 15.8333H9.43333" stroke="#E0740F" strokeLinecap="round" strokeLinejoin="round" /><path d="M13 10.4574V16.4583C13 17.4941 12.1792 18.3333 11.1667 18.3333H5.66667C4.65417 18.3333 3.83333 17.4941 3.83333 16.4583V5.20825C3.83333 4.17242 4.65417 3.33325 5.66667 3.33325H10.8442" stroke="#E0740F" strokeLinecap="round" strokeLinejoin="round" /></svg>
+          <span className="mt-[1px]">FEITO PARA VOCÊ</span></p><p className="text-[32px] md:text-5xl font-atyp-display font-semibold mb-4 leading-[40px] md:leading-[50px] text-center">Entenda como <span className="gradient-text-1">funciona</span></p></div><div className="w-full flex justify-center mb-12"><div>
+
+          </div></div><div className="w-full flex justify-center gap-8 flex-wrap">
+          <div className="transition duration-300 hover:scale-105 hover:shadow-xl  w-full min-w-[220px] max-w-[350px] md:max-w-[280px] flex flex-col items-center gap-4 px-4 py-8 rounded-2xl border border-zinc-900 bg-white/5"><img src="https://story.tv/icons/instagram.png" alt="icon" className="w-[64px] h-[64px] drop-shadow-custom-card-white" />
+            <p className="text-center font-atyp-display font-semibold text-lg">Todo conteúdo disponível</p><p className="text-center text-gray-300">Receba acesso à todo o conteúdo já gravado nos stories, como conteúdos, dia-a-dia e diversos outros.</p></div><div className="transition duration-300 hover:scale-105 hover:shadow-xl  w-full min-w-[220px] max-w-[350px] md:max-w-[280px] flex flex-col items-center gap-4 px-4 py-8 rounded-2xl border border-white/10 bg-white/5">
+            <img src="https://story.tv/icons/graph.png" alt="icon" className="w-[64px] h-[64px] drop-shadow-custom-card-white" />
+            <p className="text-center font-atyp-display font-semibold text-lg">Escolha por categorias</p><p className="text-center text-gray-300">Filtre todo o conteúdo dentro de diversas categorias apresentadas, como filtros por data, assunto e palavras-chave.</p></div><div className="transition duration-300 hover:scale-105 hover:shadow-xl  w-full min-w-[220px] max-w-[350px] md:max-w-[280px] flex flex-col items-center gap-4 px-4 py-8 rounded-2xl border border-white/10 bg-white/5"><img src="https://story.tv/icons/play.png" alt="icon" className="w-[64px] h-[64px] drop-shadow-custom-card-white" /><p className="text-center font-atyp-display font-semibold text-lg">Assista quando e onde quiser</p><p className="text-center text-gray-300">Dentro da plataforma, você pode assistir quando e onde quiser.</p></div></div></div></section>
+  );
+};

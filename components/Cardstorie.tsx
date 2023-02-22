@@ -1,0 +1,21 @@
+export const Cardstorie = () => {
+    return (
+  
+
+        
+        <div className=" py-10">
+
+           <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 max-w-[1220px] mx-auto px-6 md:px-4 pb-16"><div className="max-w-[452px]"><p className="text-[12px] md:text-base text-feedback-alert mb-4 flex items-center gap-2"><svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 9H3" stroke="#FFD466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /><path d="M4.5 15H3" stroke="#FFD466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /><path d="M4 12H2" stroke="#FFD466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /><path d="M5.30572 18C7.79343 20.7813 11.7394 21.739 15.2253 20.4075C18.7112 19.076 21.0139 15.7315 21.0139 11.9999C21.0139 8.26836 18.7112 4.92387 15.2253 3.59239C11.7393 2.26091 7.79335 3.21865 5.30566 5.99999" stroke="#FFD466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /><path fillRule="evenodd" clipRule="evenodd" d="M11.1036 8.08572C11.272 7.74434 11.6197 7.5282 12.0004 7.5282C12.3811 7.5282 12.7287 7.74434 12.8972 8.08572L13.406 9.11713C13.5516 9.41234 13.8332 9.61697 14.1589 9.66431L15.297 9.82973C15.6736 9.88451 15.9865 10.1483 16.1041 10.5102C16.2217 10.8721 16.1238 11.2694 15.8514 11.5351L15.0275 12.3387C14.792 12.5685 14.6845 12.8994 14.7401 13.2236L14.9345 14.3569C14.9988 14.732 14.8446 15.1111 14.5368 15.3349C14.2289 15.5586 13.8207 15.5882 13.4838 15.4111L12.4656 14.876C12.1743 14.7229 11.8264 14.7229 11.5351 14.876L10.5169 15.4111C10.18 15.5882 9.77183 15.5586 9.46395 15.3349C9.15606 15.1111 9.00186 14.732 9.06617 14.3569L9.26057 13.2236C9.31619 12.8994 9.20874 12.5685 8.97322 12.3387L8.14938 11.5351C7.87699 11.2694 7.77903 10.8721 7.89667 10.5102C8.01432 10.1483 8.32718 9.8845 8.70376 9.82973L9.84189 9.66431C10.1676 9.61697 10.4492 9.41234 10.5948 9.11713L11.1036 8.08572Z" stroke="#FFD466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg><span className="mt-[1px]">BENEFÍCIOS ESPECIAIS</span></p><p className="text-[32px] md:text-[3.5rem] font-atyp-display font-semibold mb-4 leading-[40px] md:leading-[58px]">
+               <span className="gradient-text-1">Novos stories</span> todos os meses para você</p>
+               <div className="flex items-center">
+        <img className="w-8 h-8 rounded-full object-cover object-right" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="" data-config-id="image2-1" />
+        <img className="w-8 h-8 -ml-2 rounded-full object-cover" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" data-config-id="image2-2" />
+        <img className="w-8 h-8 -ml-2 rounded-full object-cover object-top" src="https://images.unsplash.com/photo-1528936466093-76ffdfcf7a40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="" data-config-id="image2-3" />
+        <div className="inline-flex -ml-2 items-center justify-center w-8 h-8 rounded-full bg-indigo-50 text-xs font-medium text-indigo-500">+3</div>
+      </div>
+      </div>
+           <div className="max-w-[384px]"><div className="flex flex-col gap-1 pb-4 mb-5 border-b border-gray-700"><p className="font-atyp-display font-semibold text-[18px] md:text-[20px]">Assista quando e onde quiser</p><p className="regular text-gray-300 text-[14px] md:text-base">Assista quando e onde quiser os seus conteúdos preferidos e continue de onde parou.</p></div><div className="flex flex-col gap-1"><p className="font-atyp-display font-semibold text-[18px] md:text-[20px]">+40 Mil Stories já disponíveis</p><p className="regular text-gray-300 text-[14px] md:text-base">Mais de 40 mil stories para assistir, reassistir e continuar estudando e consumindo conteúdo.</p></div></div></div>
+        </div>
+      );
+
+  };

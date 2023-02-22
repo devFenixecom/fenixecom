@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // This must be specified if "paths" is.
+    "paths": {
+      "@components/*": ["@components/*"], // This mapping is relative to "baseUrl"
+          "@lib/*": ["lib/*"],
+          "@public/*": ["@public/*"] // This mapping is relative to "baseUrl"
+    }
+  }
+}
